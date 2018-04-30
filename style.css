@@ -436,7 +436,7 @@ i{font-style: normal;}
     width: 100%;
     height:1.4rem;
     padding-bottom: 0.3rem;
-    border-bottom:1px solid #ccc;
+    border-bottom:1px solid #777;
 
 }
 
@@ -713,4 +713,87 @@ video{
     font-size: 0.55rem;
     line-height: 1rem;
     text-indent:2em;
+}
+
+/* ———————————装修报价——————————— */
+
+.price-form{
+    width: 13.0rem;
+    margin:0.6rem auto;
+}
+.price-form select,.price-form input{
+    width: 100%;
+    height:1.8rem;
+    line-height: 1.8rem;
+    font-size: 0.6rem;
+    border-bottom:1px solid #ccc;
+    margin-top: 1px;
+}
+.price-form .btn,.price-form .btn-2{
+    margin-top: 0.6rem;
+    background-color:#f57a12;
+    color:#fff;
+    font-family: '微软雅黑';
+    cursor: pointer;
+}
+.price-form .btn-2{
+    background-color:#989898;
+}
+
+/* ———————————————留言建议————————————— */
+.message-title{
+    padding:0.5rem 0;
+}
+.message-title p{
+    font-size: 0.6rem;
+    text-align: center;
+    line-height: 1rem;
+}
+.message-title p:first-child{
+    color:#f57a12;
+    font-size: 0.7rem;
+}
+.message-title p:last-child{
+    color:gray;
+    font-size: 0.6rem;
+}
+.message-form{
+    width: 100%;
+    height:10.6rem;
+    background: url(img/fuwu_z.jpg) center center no-repeat;
+    background-size:cover;
+    text-align: center;
+    padding:0.4rem 0;
+}
+
+.message-form input,.message-form textarea,.message-form .btn{
+    color:#fff;
+    width: 12.0rem;
+    height:1.3rem;
+    padding-left: 0.4rem;
+    font-size: 0.6rem;
+    background-color:transparent;
+    border-radius:0.1rem;
+    margin:0.2rem 0;
+    border:1px solid gray;
+}
+.message-form textarea{
+    height:2.6rem;
+    padding-top: 0.3rem;
+}
+.message-form .btn{
+    background-color:#f57a12;
+    width: 12.5rem;
+    border:none;
+}
+.message-form p{
+    margin-top: 0.6rem;
+    color:#fff;
+    height:1.3rem;
+
+    font-size: 0.5rem;
+}
+.message-form p b{
+    color:#f57a12;
+    font-size: 0.7rem;
 }
