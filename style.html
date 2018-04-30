@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset=utf-8>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>贵州亿众宇豪装饰集团</title>
+    <script src="lead/rem.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<body>
+    <div class="warp">
+        <div class="header top-black">
+            <a href="index.html"><img src="img/fanh.png" alt="" class="fanh"></a>
+            <span class="addr title">装修风格</span>
+            <i class="glass-icon"></i>
+        </div>
+        <div class="top-space"></div>
+        <div class="style-banner"><img src="img/style_banner.jpg" alt=""></div>
+
+        <div class="style-menu">
+            <div class="item">
+                <select>
+                    <option>装修风格</option>
+                    <option>现代风格</option>
+                    <option>中式风格</option>
+                    <option>欧式风格</option>
+                    <option>其他风格</option>
+                </select>
+            </div>
+            <div class="item">
+                <select>
+                    <option>户型</option>
+                    <option>一居</option>
+                    <option>二居</option>
+                    <option>三居</option>
+                    <option>其他</option>
+                </select>
+            </div>
+            <div class="item">
+                <select>
+                    <option>装修 面积</option>
+                    <option>100m²以下</option>
+                    <option>100m²-500m²</option>
+                    <option>101m²-999m²</option>
+                    <option>1000m²以上</option>
+                </select>
+            </div>
+        </div>
+        <div class="style-main">
+            <div class="style-gallary" id="gallary">
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="img/jiazhuang_1.jpg" alt="">
+                        <p>普通装修 150m²</p>
+                    <span>名门国际 | 现代风格</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="img/jiazhuang_2.jpg" alt="">
+                        <p>普通装修 120m²</p>
+                    <span>名门国际 | 现代风格</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="img/jiazhuang_3.jpg" alt="">
+                        <p>普通装修 130m²</p>
+                    <span>名门国际 | 现代风格</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="img/jiazhuang_1.jpg" alt="">
+                        <p>普通装修 150m²</p>
+                    <span>名门国际 | 现代风格</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="img/jiazhuang_2.jpg" alt="">
+                        <p>普通装修 120m²</p>
+                    <span>名门国际 | 现代风格</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-pic">
+                        <img src="img/jiazhuang_3.jpg" alt="">
+                        <p>普通装修 130m²</p>
+                    <span>名门国际 | 现代风格</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="style-more" id="more">加载更多..</div>
+
+
+
+
+
+
+
+        <div class="footer">
+            <div class="top">
+                <a href="#">留言建议</a> | <a href="#">联系我们</a> | <a href="#">售后服务</a>
+            </div>
+            <div class="bottom">
+                <p>公司地址：贵阳市云岩区下合群群达 亨大厦1616层整</p>
+                <p>备案号：黔ICP备15015736号-2</p>
+                <a href="#"><img src="img/fangw_dnb.png" alt=""></a>
+            </div>
+        </div>
+        <div class="bottomBar">
+            <ul>
+                <li><a href="index.html"><img src="img/dibu_daoh_img1.png" alt=""><p>首页</p></a></li><!--
+             --><li><a href="#"><img src="img/dibu_daoh_img2.png" alt=""><p>在线咨询</p></a></li><!--
+             --><li><a href="#"><img src="img/dibu_daoh_img3.png" alt=""><p>电话资讯</p></a></li><!--
+             --><li><a href="#"><img src="img/dibu_daoh_img4.png" alt=""><p>装修报价</p></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        window.onload = function(){
+            var more = document.getElementById('more');
+            var gallary = document.getElementById('gallary');
+            var gallaryCont = gallary.innerHTML;
+            more.onclick = function(){
+                gallary.innerHTML += gallaryCont;
+            }
+        }
+    </script>
+</body>
+</html>

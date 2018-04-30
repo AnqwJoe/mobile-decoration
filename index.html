@@ -33,10 +33,10 @@
             </figure>
         </div>
         <div class="menu">
-            <div class="menu-item"><img src="img/daohang_zj_1.png" alt=""><p>装修风格</p></div>
-            <div class="menu-item"><img src="img/daohang_zj_2.png" alt=""><p>设计团队</p></div>
-            <div class="menu-item"><img src="img/daohang_zj_3.png" alt=""><p>视频展区</p></div>
-            <div class="menu-item"><img src="img/daohang_zj_4.png" alt=""><p>装修百科</p></div>
+            <a href="style.html"><div class="menu-item"><img src="img/daohang_zj_1.png" alt=""><p>装修风格</p></div></a>
+            <a href="team.html"><div class="menu-item"><img src="img/daohang_zj_2.png" alt=""><p>设计团队</p></div></a>
+            <a href="video.html"><div class="menu-item"><img src="img/daohang_zj_3.png" alt=""><p>视频展区</p></div></a>
+            <a href="dia.html"><div class="menu-item"><img src="img/daohang_zj_4.png" alt=""><p>装修百科</p></div></a>
         </div>
         <div class="jiange"></div>
         <div class="main">
@@ -44,7 +44,7 @@
                 <div class="biaoti"><span>品牌实力</span><i>10年资深品牌，值得信赖！</i></div>
                 <div class="cont">
                     <div class="left">
-                        <img src="img/jiajia_biaot.png" alt="">
+                        <a href="brand.html"><img src="img/jiajia_biaot.png" alt=""></a>
                     </div>
                     <div class="right">
                         亿众宇豪凭借超前的设计构思、精湛的施工工艺、优质的服务为每一位客户....
@@ -66,53 +66,55 @@
                     <img src="img/zhuagnxiu_1.jpg" alt="">
                     <p>万景铭瑄城</p>
                 </div>
-                <div class="img-small">
-                    <img src="img/zhuagnxiu_1.jpg" alt="">
-                    <p>万景铭瑄城</p>
-                </div><!--
-             --><div class="img-small">
-                    <img src="img/zhuagnxiu_1.jpg" alt="">
-                    <p>万景铭瑄城</p>
+                <div id="img_small">
+                    <div class="img-small">
+                        <img src="img/zhuagnxiu_1.jpg" alt="">
+                        <p>万景铭瑄城</p>
+                    </div><!--
+                 --><div class="img-small">
+                        <img src="img/zhuagnxiu_1.jpg" alt="">
+                        <p>万景铭瑄城</p>
+                    </div>
                 </div>
-                <div class="btn">查看全部</div>
+                <div class="btn" id="more">查看全部</div>
             </div>
             <div class="team">
-                <div class="biaoti"><span>设计团队</span><i>亿众宇豪装饰集团内专业人才！</i><a href="#">更多+</a></div>
+                <div class="biaoti"><span>设计团队</span><i>亿众宇豪装饰集团内专业人才！</i><a href="team.html">更多+</a></div>
                 <div class="gallary">
                     <div class="item">
                         <div class="item-pic">
-                            <img src="img/shejis_2.jpg" alt="">
+                            <a href="team.html"><img src="img/shejis_2.jpg" alt=""></a>
                             <p>设计师总监</p>
                         </div>
-                        <span>吴语华</span>
+                        <span href="team.html">吴语华</span>
                     </div>
                     <div class="item">
                         <div class="item-pic">
-                            <img src="img/shejis_4.jpg" alt="">
+                            <a href="team.html"><img src="img/shejis_4.jpg" alt=""></a>
                             <p>设计师总监</p>
                         </div>
-                        <span>武绪婷</span>
+                        <span href="team.html">武绪婷</span>
                     </div>
                     <div class="item">
                         <div class="item-pic">
-                            <img src="img/shejis_5.jpg" alt="">
+                            <a href="team.html"><img src="img/shejis_5.jpg" alt=""></a>
                             <p>设计师总监</p>
                         </div>
-                        <span>吴修远</span>
+                        <span href="team.html">吴修远</span>
                     </div>
                 </div>
             </div>
             <div class="video">
-                <div class="biaoti"><span>视频展示</span><i>优选各类施工视频供您欣赏！</i><a href="#">更多+</a></div>
+                <div class="biaoti"><span>视频展示</span><i>优选各类施工视频供您欣赏！</i><a href="video.html">更多+</a></div>
                 <div class="video-item">
                     <img src="img/shig_ship.jpg" alt="">
-                    <a href="#">立即播放</a>
-                    <p>远景国际城装修一</p>
+                    <a href="video.html">立即播放</a>
+                    <span href="video.html">远景国际城装修一</span>
                 </div><!--
              --><div class="video-item">
                     <img src="img/shig_ship1.jpg" alt="">
-                    <a href="#">立即播放</a>
-                    <p>远景国际城装修二</p>
+                    <a href="video.html">立即播放</a>
+                    <span href="video.html">远景国际城装修二</span>
                 </div>
             </div>
             <div class="jiange"></div>
@@ -145,7 +147,7 @@
                         <img src="img/news_3.jpg" alt="">
                     </div>
                 </div>
-                <a href="#"></a><div class="info-more">查看装修资讯 &gt;</div>
+                <a href="dia.html"><div class="info-more">查看装修资讯 &gt;</div></a>
             </div>
         </div>
         <div class="footer">
@@ -171,7 +173,20 @@
     <script type="text/javascript">
         $(window).load(function() {
              $('#full_feature').swipeslider();
-        })
+        });
+
+
+        window.onload = function(){
+            var more = document.getElementById('more');
+            var imgSmall = document.getElementById('img_small');
+            var imgSmallCont = imgSmall.innerHTML;
+            more.onclick = function(){
+                imgSmall.innerHTML += imgSmallCont;
+            }
+        };
+
+
+
     </script>
 </body>
 </html>
