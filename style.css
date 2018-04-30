@@ -16,6 +16,10 @@ li{ list-style-type:none;}
 i{font-style: normal;}
 
 /* 通用区 */
+.top-space{
+    width: 100%;
+    height: 1.76rem;
+}
 .swipslider{
     width: 100%;
     height: 100%;
@@ -44,6 +48,7 @@ i{font-style: normal;}
     top: 0;
     overflow: hidden;
     z-index: 99;
+
 }
 .header .logo{
     width: 4.86rem;
@@ -342,7 +347,7 @@ i{font-style: normal;}
     width: 100%;
     height:1.68rem;
     line-height: 1.68rem;
-    border-bottom:3px solid #f57a12;
+
     color:#f57a12;
     font-size: 0.5rem;
     text-align: center;
@@ -352,11 +357,12 @@ i{font-style: normal;}
 /* footer 区 */
 
 .footer{
+    border-top:3px solid #f57a12;
     font-size: 0.5rem;
     color:#6f7071;
     background-color:#000;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.9rem;
 }
 .footer .top{
     line-height: 1.4rem;
@@ -396,4 +402,68 @@ i{font-style: normal;}
 .bottomBar li a img{
     width: 1.04rem;
     height:0.76rem;
+}
+
+/* —————————————企业介绍——————————— */
+
+.top-black{
+    background-color:#000;
+}
+.header .fanh{
+    width: 0.36rem;
+    height:0.56rem;
+    float: left;
+    margin:0.6rem 0 0 0.6rem;
+}
+.header .title{
+    margin-left: 5.6rem;
+}
+
+.brand-menu{
+    width: 100%;
+    height:4.24rem;
+    background: url(img/xiaoyan.jpg) no-repeat left center;
+    background-size: 100% 100%;
+    position: relative;
+
+}
+
+.brand-menu-ul{
+    position: absolute;
+    top: 1.4rem;
+    width: 100%;
+    height:1.4rem;
+    padding-bottom: 0.3rem;
+    border-bottom:1px solid #ccc;
+
+}
+
+.brand-menu-ul li{
+    height:1.4rem;
+    line-height: 1.4rem;
+    float: left;
+    font-size: 0.5rem;
+    color:#fff;
+    width: 25%;
+    text-align: center;
+}
+.brand-menu-ul li:first-child{
+    color:#f57a12;
+    border-bottom:1px solid #f57a12;
+}
+
+.brand-main{
+    width: 100%;
+}
+.brand-main img{
+    width: 90%;
+    display: block;
+    margin:0.2rem auto;
+}
+.brand-main p{
+    font-size: 0.7rem;
+    text-indent: 2em;
+    display: inline-block;
+    margin: 0.4rem auto;
+    padding:0 0.4rem;
 }
