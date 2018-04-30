@@ -16,7 +16,12 @@ li{ list-style-type:none;}
 i{font-style: normal;}
 
 /* 通用区 */
-
+.swipslider{
+    width: 100%;
+    height: 100%;
+    box-sizing:border-box;
+    margin-left: -0%;
+}
 .jiange{
     background-color:#e7ecef;
     width: 100%;
@@ -27,14 +32,13 @@ i{font-style: normal;}
 }
 .warp{
     width: 15.0rem;
-    padding-bottom: 2.0rem;
 }
 
 /* header 部分 */
 .header{
     width: 100%;
     height: 1.76rem;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.8);
     line-height: 1.76rem;
     position: fixed;
     top: 0;
@@ -74,6 +78,7 @@ i{font-style: normal;}
 
 /* banner 区 */
 .banner{
+    margin-top: -1rem;
     width: 100%;
     height:9.4rem;
 }
@@ -149,7 +154,7 @@ i{font-style: normal;}
     padding-right: 0.2rem;
 }
 .brand .cont .right p{
-    width: 2.92rem;
+    width: 3.2rem;
     height:1.0rem;
     background-color:#f57a12;
     border-radius: 2px;
@@ -351,6 +356,7 @@ i{font-style: normal;}
     color:#6f7071;
     background-color:#000;
     text-align: center;
+    margin-bottom: 2rem;
 }
 .footer .top{
     line-height: 1.4rem;
@@ -376,6 +382,7 @@ i{font-style: normal;}
     box-sizing:border-box;
     position: fixed;
     bottom: 0;
+
 }
 .bottomBar li{
     float: left;
