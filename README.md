@@ -20,6 +20,11 @@
 
 https://anqwjoe.github.io/mobile-decoration/index.html
 
+###### 可使用手机扫二维码预览
+
+![image](https://github.com/AnqwJoe/mobile-decoration/blob/master/display/erweima.png)
+
+
 ---
 
 图片展示
