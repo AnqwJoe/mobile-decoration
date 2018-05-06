@@ -1,4 +1,6 @@
 # mobile-decoration
+在线预览地址：https://github.com/AnqwJoe/mobile-decoration  
+  
 移动端装修网站整站，采用REM适配，兼容多种尺寸设备与主流浏览器
 
 **核心页面：**
