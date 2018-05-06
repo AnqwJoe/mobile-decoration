@@ -24,6 +24,10 @@ https://anqwjoe.github.io/mobile-decoration/index.html
 
 ![image](https://github.com/AnqwJoe/mobile-decoration/blob/master/display/erweima.png)
 
+  
+#### 动图预览
+![image](https://github.com/AnqwJoe/mobile-decoration/blob/master/display/show.gif)
+
 
 ---
 
