@@ -16,7 +16,7 @@
 ---
 
 
-预览地址（**需使用手机访问**）：
+预览地址（**需使用手机访问，PC端建议开启chrome调试模式**）：
 
 https://anqwjoe.github.io/mobile-decoration/index.html
 
